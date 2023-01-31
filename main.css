@@ -6,6 +6,10 @@
   margin: 0;
 }
 
+html {
+  min-width: 23.5rem;
+}
+
 body {
   background: hsl(0, 0%, 100%);
   font-family: "Inter", sans-serif;
@@ -13,6 +17,7 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
+  min-width: 23.5rem;
 }
 
 .bg-pattern {
